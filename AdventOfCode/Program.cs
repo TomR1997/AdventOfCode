@@ -1,8 +1,3 @@
-﻿using var httpClient = new HttpClient()
-{
-    BaseAddress = new Uri("https://adventofcode.com/2021/day")
-};
+﻿using AdventOfCode._2021;
 
-await httpClient.GetAsync()
-
-Console.WriteLine("Hello, World!");
+Console.WriteLine(Day2.GetSolutionPart2());
